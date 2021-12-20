@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Big Shoulders Display';
+    src: url('BigShouldersDisplay-Bold.woff2') format('woff2'),
+        url('BigShouldersDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('LexendDeca-Regular.woff2') format('woff2'),
+        url('LexendDeca-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lexend Deca", "Arial", sans-serif;
+}
+
+#hero{
+    padding: 120px 0;
+}
+
+.container{
+    width: 920px;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px;
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    background: #E28625;
+    border-radius: 8px;
+}
+
+.item{
+    padding: 48px;
+}
+
+.item-title{
+    font-family: "Big Shoulders Display", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+    margin-bottom: 25px;
+}
+
+.list-div::before{
+    content: '';
+    width: 64px;
+    height: 40px;
+    background-image: url('/images/icon-sedan.svg');
+    background-repeat: no-repeat;
+    display: block;
+    margin-bottom: 35px;
+}
+
+.item-text{
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.75;
+    margin-bottom: 83px;
+}
+
+.item-btn{
+    font-family: "Lexend Deca", "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    color: #E28625;
+    padding: 11px 32px 12px;
+    background: #F2F2F2;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.item-btn:hover{
+    outline: 2px solid #FFFFFF;
+    background: #E28625;
+    color: #fff;
+}
+
+.two{
+    padding: 48px;
+    background: #006971;
+    border-radius: 8px; 
+}
+
+.three{
+    padding: 48px;
+    background: #004140;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.btn-two{
+    color: #006971;
+}
+
+.btn-two:hover{
+    background: #006971;
+}
+
+.btn-three{
+    color: #004140;
+}
+
+.btn-three:hover{
+    background: #004140;
+}
+
+.suv::before{
+    background-image: url('/images/icon-suv.svg');
+}
+
+.luxury::before{
+    background-image: url('/images/icon-luxury.svg');
+}
+
