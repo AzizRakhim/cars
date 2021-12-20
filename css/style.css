@@ -88,7 +88,7 @@ body{
     background: #F2F2F2;
     border-radius: 25px;
     border: none;
-    cursor: pointer;
+    text-decoration: none;
 }
 
 .item-btn:hover{
